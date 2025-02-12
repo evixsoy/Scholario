@@ -1,4 +1,4 @@
 # Školní systemova react frontend stranka (edupage, bakalari,...)
-## WIP
+WIP
 
 > React JSX, Vite, CSS
