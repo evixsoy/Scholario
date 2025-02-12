@@ -4,6 +4,7 @@ body {
         linear-gradient(45deg, rgba(0,0,0,1) 10%, rgb(36, 36, 36) 120%);
     background-size: 40px 40px, cover; /* 1. vrstva: grid pattern, 2. vrstva: gradient */
     background-attachment: fixed; /* Udrží gradient při skrolování */
+    overflow-y: hidden;
 }
 
 *{

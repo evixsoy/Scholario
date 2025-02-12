@@ -5,13 +5,16 @@
     /* border: 1px solid red; */
     width: 45%;
     height: 4vh;
-    margin-left: 15%;
-    margin-top: 1.5%;
+    /* margin-left: 15%;*/
+    margin-top: 1.5%; 
     display: flex;
     background-color:#111111;
     border-radius: 5px ;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -39,6 +42,7 @@
 }
 .tools{
     width: 8%;
+    display: flex;
 }
 .tools > *{
     cursor: pointer;

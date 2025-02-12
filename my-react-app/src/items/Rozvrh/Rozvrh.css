@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;700&display=swap');
+
+.Wrapper-rozvrh{
+    width: 51%;
+    height: 25%;
+    margin-left: -15%;
+    margin-top: 3%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    /* glass effect */
+    background: linear-gradient( rgba(134, 133, 133, 0), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+}
+
+.today, .tomorrow{
+    border-bottom: 1px solid #424242;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.radek{
+    font-family: 'Outfit';
+    font-weight: 500;
+    color: #bdbdbd;
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+}
+.date{
+    border-right:1px solid #424242;
+    /* border: 1px solid pink; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.rozvrh{
+    flex: 1;
+    overflow: hidden;
+}
+
+.dnesnirozvrh, .zitrejsirozvrh{
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.hodina{
+    border: 1px solid #888888;
+    width: 12%;
+    background: linear-gradient( rgba(134, 133, 133, 0), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+}
+.subject{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.teacher{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.teacher > h1{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.blurry-circle,.inactive-circle {
+    width: 60px;
+    height: 60px;
+    /* background-color: rgba(255, 0, 0, 0.4);  */
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    border-radius: 50%;
+    z-index: -1; 
+    opacity: 0.15;
+}
+.inactive-circle{
+    opacity: 0.08;
+}
+.active{
+    box-shadow: 0 0 50px 10px rgba(255,255,255,0.4) ;
+}
+
+.jedna{
+    box-shadow: 0 0 100px 30px rgb(8, 255, 191);
+    left: 30%;
+    top: -30%;
+}
+.dva{
+    box-shadow: 0 0 100px 30px #06FF17;
+    left: 40%;
+    top: 130%;
+}
+.tri{
+    box-shadow: 0 0 100px 30px #FF0A0E;
+    left: 53%;
+    top: -30%;
+}
+
+.ctyri{
+    box-shadow: 0 0 100px 30px #FFF202;
+    left: 65%;
+    top: 130%;
+}
+
+.pet{
+    box-shadow: 0 0 100px 30px #FF05A7;
+    left: 80%;
+    top: -30%;
+}
+
+.sest{
+    box-shadow: 0 0 100px 30px #6200ff;
+    left: 90%;
+    top: 130%;
+}
+
+.inactive-jedna{
+    box-shadow: 0 0 100px 30px rgb(255,255,255);
+}
+.inactive-dva{
+    box-shadow: 0 0 100px 30px rgb(255,255,255);
+}
+.inactive-tri{
+    box-shadow: 0 0 100px 30px rgb(255,255,255);
+}
+.inactive-ctyri{
+    box-shadow: 0 0 100px 30px rgb(255,255,255);
+}
+.inactive-pet{
+    box-shadow: 0 0 100px 30px rgb(255,255,255);
+}
+.inactive-sest{
+    box-shadow: 0 0 100px 30px rgb(255,255,255);
+}
