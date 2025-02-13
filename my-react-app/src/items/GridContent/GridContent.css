@@ -1,0 +1,83 @@
+.Wrapper-Grid{
+    margin: 5%;
+    height: 80%;
+    width: 90%;
+    display: grid;
+    column-gap: 30px;
+    row-gap: 20px;
+    /* grid-template-columns: 1.75fr 1.25fr 1fr; */
+    grid-template-rows: 1.25fr 0.75fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr;
+    grid-template-areas:
+        "one one four five"
+        "two three four five"
+        "two three six six";
+}
+
+.box{
+    background-color: #000000;
+    border-radius: 4px;
+    border: 1px solid rgb(29, 29, 29);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.12) 0px -3px 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box1{
+    grid-area: one ;
+}
+.box2{
+    grid-area: two ;
+}
+.box3{
+    grid-area: three ;
+}
+.box4{
+    grid-area: four ;
+}
+.box5{
+    grid-area: five ;
+}
+.box6{
+    grid-area: six ;
+}
+
+.noiseFilter{
+    opacity: 0.08;
+    height: 100%;
+    width: 100%;
+}
+
+.blurry-gradient{ 
+    position: absolute;
+    opacity: 0.25;
+}
+
+.circle1-1{
+    width: 100%;
+    height: 0%;
+    transform: translateY(-50px);
+    box-shadow: 0 0 150px 50px rgb(255, 255, 255)
+}
+
+.blurry-circle{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color:rgb(199, 8, 216,0.55);
+    opacity: 0.1;
+    border-radius: 50%;
+    box-shadow: 0 0 150px 50px rgb(199, 8, 216);
+    transform: translateY(10%);
+    inset: 100px;
+}
+
+.circle3-1{
+    width: 100%;
+    height: 150%;
+    transform: rotate(135deg);
+    margin-left: 130%;
+    margin-top: -50%;
+    border-radius: 50%;
+    box-shadow: 0 0 500px 150px rgb(37, 26, 228);
+}

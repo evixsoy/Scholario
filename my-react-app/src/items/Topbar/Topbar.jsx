@@ -30,9 +30,9 @@ function Topbar() {
     <div className='Wrapper-topbar'>
         <span className="clock text">{formatTime()}</span>
         <div className="info">
-            <span className="studentName infotext text">Student Name</span>
+            <span className="studentName infotext text">Jan Novák</span>
             <span className="class infotext text">1.A </span>
-            <span className="status infotext text">Student</span>
+            <span className="status infotext text">Žák</span>
         </div>
         <div className="tools">
             {/* pridat tootltips */}

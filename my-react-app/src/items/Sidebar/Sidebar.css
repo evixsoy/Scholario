@@ -16,7 +16,7 @@
     font-size: 28px;
 }
 .Wrapper-sidebar.open{
-    width: 11%;
+    width: 14%;
 }
 .Wrapper-sidebar.closed{
     width: 5%;
@@ -77,12 +77,10 @@
     opacity: 1;
 }
 
-.Wrapper-sidebar:not(.closed) .svgfix{
-    margin-top: 5px;
-}
 .SidebarText{
     margin-left: 10px;
     font-weight: 300;
+    font-size: 22px;
     color: #bdbdbd;
     visibility: visible;
     white-space: nowrap;
@@ -129,9 +127,6 @@
         padding: 10px;
     }
 
-    .svgfix{
-        transform: translateY(-3px);
-    }
     
 }
 

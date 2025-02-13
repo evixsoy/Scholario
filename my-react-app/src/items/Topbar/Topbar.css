@@ -4,12 +4,12 @@
 .Wrapper-topbar{
     /* border: 1px solid red; */
     width: 45%;
-    height: 4vh;
+    height: 3vh;
     /* margin-left: 15%;*/
     margin-top: 1.5%; 
     display: flex;
     background-color:#111111;
-    border-radius: 5px ;
+    border-radius: 6px ;
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
@@ -30,7 +30,7 @@
 .text{
     color: #bdbdbd;
     font-family: 'Outfit';
-    font-weight: 500;
+    font-weight: 300;
 }
 .infotext{
     font-size: 20px;

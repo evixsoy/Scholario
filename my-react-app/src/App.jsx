@@ -1,7 +1,7 @@
 import './App.css'
 import Sidebar from './items/Sidebar/Sidebar';
 import Topbar from './items/Topbar/Topbar';
-import Rozvrh from './items/Rozvrh/Rozvrh';
+import GridContent from './items/GridContent/GridContent';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div className="window">
         <Topbar/>
         <div className="content">
-          <Rozvrh/>
+          <GridContent/>
         </div>
       </div>
     </div>
